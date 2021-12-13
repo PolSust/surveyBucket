@@ -11,6 +11,7 @@
   ],
   "rules": {
     // typegoose requires this
-    "eslint-no-use-before-defining": 0
+    "eslint-no-use-before-defining": "off",
+    "@typescript-eslint/no-non-null-assertion": "off"
   }
 }

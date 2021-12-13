@@ -1,0 +1,10 @@
+{
+	"name": "survey-bucket",
+	"private": true,
+	"workspaces": [
+		"client",
+		"server",
+		"shared"
+	],
+	"author": "Pol Sust <polsust@gmail.com>"
+}
