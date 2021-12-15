@@ -16,12 +16,16 @@
 		"@survey-bucket/shared": "1.0.0",
 		"@typegoose/typegoose": "^9.3.1",
 		"apollo-server": "^3.5.0",
+		"bcrypt": "^5.0.1",
 		"graphql": "^16.1.0",
+		"jsonwebtoken": "^8.5.1",
 		"lodash.merge": "^4.6.2",
 		"mongoose": "^6.1.0"
 	},
 	"devDependencies": {
+		"@types/bcrypt": "^5.0.0",
 		"@types/graphql": "^14.5.0",
+		"@types/jsonwebtoken": "^8.5.6",
 		"@types/lodash.merge": "^4.6.6",
 		"@types/node": "^16.11.12",
 		"@typescript-eslint/eslint-plugin": "^5.6.0",
