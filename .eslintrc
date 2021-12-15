@@ -12,6 +12,7 @@
   "rules": {
     // typegoose requires this
     "eslint-no-use-before-defining": "off",
-    "@typescript-eslint/no-non-null-assertion": "off"
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/explicit-function-return-type": "warn"
   }
 }
