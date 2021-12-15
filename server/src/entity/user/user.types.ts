@@ -8,10 +8,15 @@ export const UserTypeDef = gql`
 	}
 
 	extend type Mutation {
-		createUser(user: CreateUserInput): User
+		register(user: UserInput): User
+		login(email: String, password: String): AuthResponse
 	}
 
-	input CreateUserInput {
+	type AuthResponse {
+		accessToken: String
+	}
+
+	input UserInput {
 		username: String!
 		email: String!
 		password: String!
@@ -26,6 +31,8 @@ export const UserTypeDef = gql`
 `;
 
 export class User {
+	public id!: string;
+
 	@prop()
 	public username!: string;
 
