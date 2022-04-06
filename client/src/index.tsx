@@ -1,13 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import Providers from "./Providers/Providers";
 import reportWebVitals from "./reportWebVitals";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Providers><App /></Providers>
-		
+		<Providers>
+			<BrowserRouter>
+				<App />
+			</BrowserRouter>
+		</Providers>
 	</React.StrictMode>,
 	document.getElementById("root")
 );

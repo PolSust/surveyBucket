@@ -2,6 +2,9 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "target": "es5",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "types": [
       "react/next",
       "react-dom/next"
@@ -9,7 +12,8 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es6",
     ],
     "allowJs": true,
     "skipLibCheck": true,
